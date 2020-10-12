@@ -7,6 +7,7 @@ import { LaunchDetails } from '../models/launch-models';
   styleUrls: ['./launch-list.component.scss'],
 })
 export class LaunchListComponent implements OnInit {
+
   @Input() launchList: LaunchDetails[];
 
   constructor() {}
