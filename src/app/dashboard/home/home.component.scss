@@ -1,7 +1,8 @@
 .component-wrapper {
   justify-items: center;
 }
-#heading{
+
+#heading {
   font-size: 30px;
   font-weight: bold;
 }
@@ -30,7 +31,7 @@
 
   li,
   p {
-    color: #98afc7;
+    color: #339EFF;
   }
 
   .launch-title {
@@ -43,6 +44,7 @@
     grid-template-columns: 1fr;
   }
 }
+
 @media screen and (min-width: 992px) {
   .launch-item {
     grid-template-columns: 1fr 1fr;
@@ -65,7 +67,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .launch-item {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -74,14 +76,14 @@
   .launch-item {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .launch-item {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
